@@ -16,3 +16,10 @@ in the working directory, the staging area and the repository. You can use this 
 sure the changes you have made that you plan to commit really represent one logical change,
 before you commit them. If not, you can "de-add" (what's the real name?) files from the
 staging area, choosing only to commit the changes in those that do represent one logical change. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would
+branches help?
+When you want to try features to the game that you don't want to implement directly on the master
+branch. If you would have tried everything new on the master branch, the history of the repository
+would be cluttered by different versions of the files with different features. One branch means 
+one "theme" for the files on that branch. 
