@@ -1,3 +1,11 @@
 What happens when you initialize a repository? Why do you need to do it?
 It creates a folder (.git) where the history of the files in the repository are
 kept, so that you can view earlier verisons.
+
+How is the staging area different from the working directory and the repository? What value do you 
+think it offers?
+It's some kind of middle ground. It might only exist on the hard drive (don't know yet), but it is 
+connected to the Git repository. Adding something to the staging area might "connect" those files to
+git, without having to commit them to the full project.
+Also, if you have written many files, but only want to commit them to Git at a time, you can do this 
+via the staging area.
