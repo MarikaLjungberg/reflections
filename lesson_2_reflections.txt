@@ -9,3 +9,10 @@ connected to the Git repository. Adding something to the staging area might "con
 git, without having to commit them to the full project.
 Also, if you have written many files, but only want to commit them to Git at a time, you can do this 
 via the staging area.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Using the different diff methods, you can compare and see the differences between files
+in the working directory, the staging area and the repository. You can use this to make
+sure the changes you have made that you plan to commit really represent one logical change,
+before you commit them. If not, you can "de-add" (what's the real name?) files from the
+staging area, choosing only to commit the changes in those that do represent one logical change. 
