@@ -23,3 +23,8 @@ When you want to try features to the game that you don't want to implement direc
 branch. If you would have tried everything new on the master branch, the history of the repository
 would be cluttered by different versions of the files with different features. One branch means 
 one "theme" for the files on that branch. 
+
+How do the diagrams help you visualize the branch structure?
+They provide a clear graphical representation of commits versus time, i e the history of the project
+with all the different branches visualised separately from each other so that the reachability is 
+easily seen.
