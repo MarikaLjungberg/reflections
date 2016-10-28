@@ -28,3 +28,8 @@ How do the diagrams help you visualize the branch structure?
 They provide a clear graphical representation of commits versus time, i e the history of the project
 with all the different branches visualised separately from each other so that the reachability is 
 easily seen.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Instead of two different copies of all the files in the project, after a merge there will only be one
+copy with all the changes (commits) together. This is represented in the diagram as two circles (commits)
+coming together to form only one, which is the baseparent for the new history to come. 
