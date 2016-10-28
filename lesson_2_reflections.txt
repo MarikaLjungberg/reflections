@@ -33,3 +33,10 @@ What is the result of merging two branches together? Why do we represent it in t
 Instead of two different copies of all the files in the project, after a merge there will only be one
 copy with all the changes (commits) together. This is represented in the diagram as two circles (commits)
 coming together to form only one, which is the baseparent for the new history to come. 
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Pros are, of course, that Git does it faster than if we had to do it all by ourselves.
+Cons are that there might be conflicts - later bugs - that can't be detected by Git's auto merge.
+That is, some changes that give rise to conflicts might not be done at the same place in a file,
+and then Git will not think they are conflicting. 
+Manually, we also have the factor of human errors. 
