@@ -8,3 +8,12 @@ Why might you want to always pull changes manually rather than having Git automa
 up-to-date with your remote repository?
 The changes you jave made in your code might conflict with the changes being made in the
 remote "original" code. 
+
+Describe the differences between forks, clones, and branches. When would you use one instead
+of another?
+Forks are like cloning, but on GitHub's site, and are for when you want to use someone's 
+repo and make your own changes to it, but you are not allowed to change the original code
+and push to the forked repo. Clones are copies of a repo (forks bering a subset of clones?),
+on GitHub or on your own computer. Branches are part of repositories, different versions of
+the code that has been changed in different ways over time. 
+
