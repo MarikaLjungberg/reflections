@@ -3,3 +3,8 @@ When I'm working on several computers and wouldn't want to be dependant on all m
 being on only one computer that I would have to take with me.
 Or when I want others to contribute to my projects, they would need a remote repository to
 work through.
+
+Why might you want to always pull changes manually rather than having Git automatically stay
+up-to-date with your remote repository?
+The changes you jave made in your code might conflict with the changes being made in the
+remote "original" code. 
