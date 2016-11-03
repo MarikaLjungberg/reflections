@@ -19,7 +19,7 @@ the code that has been changed in different ways over time.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 You can keep track of when you last pulled the original code, where you left off the others,
-and later compare and see what has changed since.
+and later compare and see what has changed since. You would know what to pull.
 You would have a working version if something went wrong. You could always go back to an 
 original version of the code and start off from there if you want to discard but not delete
 your changes.  
