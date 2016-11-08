@@ -23,3 +23,9 @@ and later compare and see what has changed since. You would know what to pull.
 You would have a working version if something went wrong. You could always go back to an 
 original version of the code and start off from there if you want to discard but not delete
 your changes.  
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Easier would be not to have to learn a whole new system for collaborating. But it would be harder
+to keep track of changes and branches in the code, and even getting anyone to fix a bug and knowing who
+that person was automatically. It would be a lot of sending files back and forth and having to delete 
+old files. Also, commenting on different types of changes would be less structured.
