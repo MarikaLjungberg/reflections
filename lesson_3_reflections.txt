@@ -29,3 +29,10 @@ Easier would be not to have to learn a whole new system for collaborating. But i
 to keep track of changes and branches in the code, and even getting anyone to fix a bug and knowing who
 that person was automatically. It would be a lot of sending files back and forth and having to delete 
 old files. Also, commenting on different types of changes would be less structured.
+
+When would you want to make changes in a separate branch rather than directly in master?
+What benefits does each approach have?
+Whenever you're trying an idea or making a change that you are not completely sure you
+will want in the master. Or any time when you are collaborating with other people and you
+want them to give feedback on your ideas before merging them into master, and to make sure
+they can be merged into master if someone else has been working on master meanwhile.
